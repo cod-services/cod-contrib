@@ -293,9 +293,9 @@ def evaluate(s):
 
 def hack_wrapper(cod, line, splitline, source, destination):
     if len(splitline) > 1:
-        cod.reply(source, destination, evaluate("> " + " ".join(splitline[1:])))
+        cod.reply(source, destination, "> " + evaluate(" ".join(splitline[1:])))
     else:
-        cod.reply(source, destination, evaluate("> " + get_base_advice()))
+        cod.reply(source, destination, "> " + evaluate(get_base_advice()))
 
 def initModule(cod):
     cod.addBotCommand("HACK", hack_wrapper)
