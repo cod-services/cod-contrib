@@ -1,5 +1,5 @@
 """
-Copyright (c) 2013, Sam Dodrill, Jessica Williams
+Copyright (c) 2013, Christine Dodrill, Jessica Williams
 All rights reserved.
 
 This software is provided 'as-is', without any express or implied
